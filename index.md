@@ -8,8 +8,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/banner.jpg
   actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+    - label: "Pozri si PDF leták"
+      url: "/assets/pdf/pdf-leaflet.pdf"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Vítaj na stranke pre single ľudí, ktorí si myslia, že dnešný svet sa zbláznil.<br/><br/>
 Chceš stráviť kvalitný čas, s možnosťou stretnúť spriazenú dušu a niečo sa o sebe dozvedieť?"
@@ -46,28 +46,13 @@ organizatori:
     Nezapriem ani svoju živú a hravú povahu. Účinkujem ako herečka a tanečnica vo viacerých divadelných predstaveniach.
     Svoju vášeň zaoberania sa telom z rôznych perspektív a skúseností prinášam aj na skupinové programy pre ženy s výrazným duchovným presahom. Tak uzemneným, ako len telo môže byť."
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/book-a-call.jpg
     alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
+    title: "Chceš vedieť viac?"
+    excerpt: 'Maximálny počet účastníkov najednej akcii je 20.<br/>
+     Začíname o 17:00 a končíme o 21:00.'
+    url: "/assets/pdf/pdf-leaflet.pdf"
+    btn_label: "Stiahni si PDF leták"
     btn_class: "btn--primary"
 ---
 
@@ -76,20 +61,23 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
-## Cena vstupenky je 79,- €
+# Cena vstupenky je 79,- €
 {: .text-center}
+
+{% include feature_row id="pricing" type="center" %}
+
 
 # Najbližšie akcie v januári 2025
 
 V Bratislave v kúzelnom DOJO domčeku u Medickej záhrady na adrese Poľná 1.
 
-Akcia trvá 4 hodiny, začína o 17:00 a končí o 21:00.
+Akcie začínajú o 17h.
 
 {% include feature_row id="najblizsie_akcie" %}
 
 Chceš sa pridať? Objavovať, spoznávať, zaľúbiť sa.
 {: .text-center}
-Rezveruj si miesto na komorné podujatie pre nezadaných.
+Rezervuj si miesto na komorné podujatie pre nezadaných.
 {: .text-center}
 
 # Ako sa prihlásiť?
@@ -110,17 +98,7 @@ Na ľuďoch nám záleží a máme čo ponúknuť. Preto sme vytvorili podujatie
 
 {% include feature_row id="feature_row2" type="left" %}
 
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
-
-# Detaily akcie
-
-Maximálny počet účastníkov na akcii je 20.
-
-Stiahni si [PDF leták](#) - obsahuje viac o plánovanom podujatí.
-
-button: rezervuj si call zdarma  button dva:
-
-Chceš sa pridať? Objavovať, spoznávať, zaľúbiť sa. Rezveruj si miesto na komorné podujatie pre nezadaných.<br/><br/>
-  Staň sa účastníkom. Kontaktuj nás.
+    
+Chceš sa pridať? Objavovať, spoznávať, zaľúbiť sa. Rezervuj si miesto na komorné podujatie pre nezadaných.<br/><br/>
+Staň sa účastníkom.<br/>
+Kontaktuj nás.
