@@ -69,7 +69,7 @@ feature_row2:
 
 # Najbližšie akcie v januári 2025
 
-V Bratislave v kúzelnom DOJO domčeku u Medickej záhrady na adrese Poľná 1.
+V Bratislave v kúzelnom DOJO domčeku pri Medickej záhrade na adrese Poľná 1.
 
 Akcie začínajú o 17h.
 
