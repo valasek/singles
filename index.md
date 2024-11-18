@@ -1,5 +1,5 @@
 ---
-title: "Singles"
+title: "Priestor na vytváranie \"nových\" vzťahov"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -20,12 +20,12 @@ intro:
 najblizsie_akcie:
   - image_path: assets/images/friday.jpg
     alt: "placeholder image 1"
-    title: "piatok 28. 1."
+    title: "piatok 24. 1."
   - image_path: assets/images/saturday.jpg
     alt: "placeholder image 2"
-    title: "sobota 29. 1."
+    title: "sobota 25. 1."
   - image_path: assets/images/sunday.jpg
-    title: "nedeľa 30. 1."
+    title: "nedeľa 26. 1."
 organizatori:
   - image_path: assets/images/jana.jpeg
     alt: "placeholder image 1"
