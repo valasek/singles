@@ -3,7 +3,6 @@ date: 2024-11-13
 last_modified_at: 2024-11-13
 title: "Láska v zrelom veku: Ako nájsť partnera s pomocou vzťahového kouča"
 description: "Objavte možnosti zoznamovania vo vyššom veku. S podporou vzťahového kouča prekonajte obavy a nájdite skutočnú lásku. Zistite, prečo vek nie je prekážkou šťastného vzťahu."
-permalink: /laska-v-zrelom-veku/
 categories: 
   - Vzťahové poradenstvo
   - Zoznamovanie
