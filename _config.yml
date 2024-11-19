@@ -76,3 +76,14 @@ defaults:
       locale: sk_SK
       share: true
       related: true
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-207N4KWFG0"
+    anonymize_ip: false # default
+google_analytics: G-207N4KWFG0
+google_site_verification: to-be-updated
+
+# Open Graph default image
+og_image: /assets/images/site-logo.png
