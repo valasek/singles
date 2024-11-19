@@ -20,40 +20,46 @@ intro:
   Chceš sa pridať? Objavovať, spoznávať, zaľúbiť sa.<br/>
   Rezervuj si miesto na komorné podujatie pre nezadaných.'
 najblizsie_akcie:
-  - image_path: assets/images/friday.jpg
+  - image_path: assets/images/bratislava.jpg
     alt: "placeholder image 1"
-    title: "piatok 24. 1."
-  - image_path: assets/images/saturday.jpg
+    title: "Bratislava • 79,- € / osoba"
+    excerpt: |-
+      piatok 24. 1.<br/>
+      sobota 25. 1.<br/>
+      nedeľa 26. 1.
+    url: "/assets/pdf/pdf-leaflet-bratislava.pdf"
+    btn_label: "PDF leták Bratislava"
+    btn_class: "btn--primary"
+  - image_path: assets/images/vienna.jpg
     alt: "placeholder image 2"
-    title: "sobota 25. 1."
-  - image_path: assets/images/sunday.jpg
-    title: "nedeľa 26. 1."
+    title: "Viedeň • 98,- € / osoba"
+    excerpt: |-
+      piatok 31. 1.<br/>
+      sobota 1. 2.<br/>
+      nedeľa 2. 2.
+    url: "/assets/pdf/pdf-leaflet-vienna.pdf"
+    btn_label: "PDF leták Viedeň"
+    btn_class: "btn--primary"
 organizatori:
   - image_path: assets/images/jana.jpeg
     alt: "placeholder image 1"
     title: "Jana Šedivá"
-    excerpt: "Jana srdcom i dušou obchodníčka. V obchode a hlavne predaji produktov sa pohybuje posledných 10 rokov. ..."
-    url: "/assets/pdf/pdf-leaflet.pdf"
+    excerpt: "15 rokov v biznise ma naučilo, že moderné lídrovstvo vyžaduje koučovací prístup. Prepájam obchodné know-how s koučingom, pomáham lídrom transformovať tímy a dosahovať udržateľný úspech."
+    url: "/jana-sediva/"
     btn_label: "Spoznaj ma viac"
     btn_class: "btn--primary"
   - image_path: /assets/images/stanislav.jpg
     alt: "placeholder image 2"
     title: "Stanislav Valášek"
-    excerpt: "Stanislav, posledných 20 rokov som strávil vedením technických IT týmov a dodávkamy SW projektov.<br/>
-    Svoje skúsenosti ďalej odovzdávam formou mentoringu manažérov. A v oblastiach, ktoré nepoznám poskytujem koučing."
-    url: "/assets/pdf/pdf-leaflet.pdf"
+    excerpt: "20 rokov som viedol IT tímy a projekty, no osobné zmeny ma priviedli k koučingu. Svoje skúsenosti z biznisu prepájam s mentálnym rozvojom a vedomými vzťahmi, pomáham ľuďom rásť a napĺňať ich potenciál."
+    url: "/stanislav-valasek/"
     btn_label: "Spoznaj ma viac"
     btn_class: "btn--primary"
   - image_path: /assets/images/dorota.jpg
     alt: "placeholder image 2"
     title: "Dorota Zachová"
-    excerpt: "Práci s telom a klientami sa venujem viac ako 16 rokov vo viacerých rovinách.
-    Na tej hrubohmotnej na lekciách pilatesu, či fyziocvičeniach. Dbám na zvedomovanie si jednotlivých štruktúr, svalov i kostí.
-    Ako masérka používam banky, Dornovu metódu, lávové kamene a dotyk ako taký. Zaujímam sa o smerovanie zvedomených aj nezvedomených symptómov klienta.
-    Na tej jemnohmotnej rovine načúvam a sprevádzam k vnútorným zdrojom a dychu života pri kraniosakrálnej praxi.
-    Nezapriem ani svoju živú a hravú povahu. Účinkujem ako herečka a tanečnica vo viacerých divadelných predstaveniach.
-    Svoju vášeň zaoberania sa telom z rôznych perspektív a skúseností prinášam aj na skupinové programy pre ženy s výrazným duchovným presahom. Tak uzemneným, ako len telo môže byť."
-    url: "/assets/pdf/pdf-leaflet.pdf"
+    excerpt: "Práci s telom sa venujem 16 rokov na viacerých úrovniach – pilates, fyziocvičenia, masáže, kraniosakrálna terapia. Sprevádzam klientov k zvedomovaniu tela, symptómov i vnútornej rovnováhy."
+    url: "/dorota-zachova/"
     btn_label: "Spoznaj ma viac"
     btn_class: "btn--primary"
 feature_row2:
@@ -81,20 +87,6 @@ v závislosti od miesta konania Bratislava, Viedeň
 
 # Najbližšie akcie v januári 2025
 
-Bratislava a 79,- €
-Viedeň a 98,- €
-otvoria PDF s pozvánkou
-
-Bratislava:
-- piatok 24. 1.
-- sobota 25. 1.
-- nedeľa 26. 1.
-
-Viedeň:
-- piatok 31. 1.
-- sobota 1. 2.
-- nedeľa 2. 2.
-
 {% include feature_row id="najblizsie_akcie" %}
 
 # Ako sa prihlásiť?
@@ -117,3 +109,9 @@ Na ľuďoch nám záleží a máme čo ponúknuť. Preto sme vytvorili podujatie
 {% include feature_row id="organizatori" %}
 
 {% include feature_row id="feature_row2" type="left" %}
+
+---
+
+Bratislava a 79,- €
+Viedeň a 98,- €
+otvoria PDF s pozvánkou
