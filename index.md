@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/banner.jpg
   actions:
     - label: "Pozri si PDF leták"
-      url: "/assets/pdf/pdf-leaflet.pdf"
+      url: "/assets/pdf/pdf-leaflet-bratislava.pdf"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Vítaj na stranke pre single ľudí, ktorí si myslia, že dnešný svet sa zbláznil.<br/><br/>
 Chceš stráviť kvalitný čas, s možnosťou stretnúť spriazenú dušu a niečo sa o sebe dozvedieť?"
@@ -67,7 +67,7 @@ feature_row2:
     alt: "placeholder image 2"
     title: "Chceš vedieť viac?"
     excerpt: ''
-    url: "/assets/pdf/pdf-leaflet.pdf"
+    url: "/assets/pdf/pdf-leaflet-bratislava.pdf"
     btn_label: "Stiahni si PDF leták"
     btn_class: "btn--primary"
 ---
@@ -76,6 +76,11 @@ feature_row2:
 {: .text-center}
 
 {% include feature_row id="intro" type="center" %}
+
+[Rezervuj si online call s koučom](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2sepIGc8sosu7oevx1Xk3fYGiGule7mdjFghy02Uxslk_TfTEAKBMw2bsN5Ja3WZ4nHWgMTcsM){: .btn .btn--primary}
+[Vyplň svoje očakávania](https://docs.google.com/forms/d/e/1FAIpQLSecZ0pyf3_XyXWSrdEvSgjEn-dKRsD8HCBUE32c-6gVbz0-ag/viewform){: .btn .btn--primary}
+[Stiahni si leták](/assets/pdf/pdf-leaflet-bratislava.pdf){: .btn .btn--primary}
+{: .text-center}
 
 # Cena vstupenky od 79,- €
 {: .text-center}
@@ -109,9 +114,3 @@ Na ľuďoch nám záleží a máme čo ponúknuť. Preto sme vytvorili podujatie
 {% include feature_row id="organizatori" %}
 
 {% include feature_row id="feature_row2" type="left" %}
-
----
-
-Bratislava a 79,- €
-Viedeň a 98,- €
-otvoria PDF s pozvánkou
